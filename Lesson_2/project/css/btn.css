@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Montserrat:wght@400;600&display=swap');
+
+
+:root{
+    --normal-h : 50px;
+    --normal-fs : 13px;
+    --noraml-c : #ffffff;
+}
+body{
+    background-color: #bebcbc;
+}
+.mb{
+    margin-bottom: 5px;
+}
+.btn{
+    display: inline-block;
+    box-sizing: border-box;
+    height: var(--normal-h);
+    line-height: var(--normal-h);
+    /* background-color: #000000; */
+    color: var(--noraml-c);
+    /* border: 2px solid #000000; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--normal-fs);
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #003566;
+    border: 2px solid #003566;
+}
+
+.btn-secondary{
+    background-color: #ff006e;
+    border: 2px solid #ff006e;
+}
+
+.btn-accent{
+    background-color: #9d8189;
+    border: 2px solid #9d8189;
+}
+
+.btn-light{
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn-dark{
+    background-color: #723d46;
+    border: 2px solid #723d46;
+}
+
+.btn-mid{
+    background-color: #f15bb5;
+    border: 2px solid #f15bb5;
+}
+
+.btn-outline{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    height: var(--normal-h);
+    line-height: var(--normal-h);
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--normal-fs);
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.btn-outline-light{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.btn-outline-dark{
+    color: #723d46;
+    border: 2px solid #723d46;
+}
+.btn-outline-primary{
+    color: #003566;
+    border: 2px solid #003566;
+}
+.btn-outline-secondary{
+    color: #ff006e;
+    border: 2px solid #ff006e;
+}
+.btn-outline-accent{
+    color: #9d8189;
+    border: 2px solid #9d8189;
+}
+.rounded{
+    border-radius: 5px;
+}
+.rounded-pill{
+    border-radius: 25px;
+}
+.btn-icon{
+    width: 50px;
+    padding: 0;
+    text-align: center;
+}
+/* button should not give width 
+if you give width should not use padding */
+
+/* line-height should use for button 
+or a tag that is match with height value*/
+
+/* :root is collecting same value to reduce duplicate value  */
+
+/* button font-size 16px is golden ratio  */

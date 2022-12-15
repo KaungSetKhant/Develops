@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        body{
+            background-color: #1f1c1f;
+            height: 3000px;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            background-color: pink;
+            /* box-shadow: 10px 10px 20px rgba(0, 255, 255, 0.384), -20px -20px 20px rgba(0, 255, 255, 0.384); */
+            box-shadow: 30px 30px 45px inset rgba(0, 0, 0, 0.384), 10px 10px 30px rgb(241, 178, 202);
+        }
+        .photo{
+            width: 300px;
+            display: block;
+            border-radius: 10px;
+            border: 3px solid rgb(212, 151, 165);
+            margin: 100px auto;
+            box-shadow: 0px 0px 60px rgb(211, 123, 143);
+        }
+        h1{
+            text-align: center;
+            color: cyan;
+            text-shadow: 0px 40px 3px rgba(245, 245, 245, 0.144), 5px 5px 1px rgba(255, 0, 0, 0.719);
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/manobal.webp" alt="manobal" class="photo">
+    <div class="box"></div>
+    <h1>Min Ga Lar Par</h1>
+</body>
+</html>
