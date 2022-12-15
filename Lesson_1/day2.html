@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2</title>
+</head>
+<body>
+    <h3>Unordered List</h3>
+
+    <ul>
+        <li>Window Os</li>
+        <li>Mac OS</li>
+        <li>Server OS</li>
+        <li>Apple</li>
+        <li>Android</li>
+        <li>Linux</li>
+        <li>Cent OS</li>
+    </ul>
+
+    <hr>
+
+    <h3>Next way of Unordered list</h3>
+
+    <ul type="circle">
+        <li>Window Os</li>
+        <li>Mac OS</li>
+        <li>Server OS</li>
+        <li>Apple</li>
+        <li>
+            Android
+            <ul>
+                <li>
+                    Samsung
+                    <ul>
+                        <li>Pro</li>
+                        <li>Pro Max</li>
+                    </ul>
+                </li>
+                <li>Vivo</li>
+                <li>Oppo</li>
+            </ul>
+        </li>
+        <li>Linux</li>
+        <li>Cent OS</li>
+    </ul>
+    <hr>
+
+    <h3>Ordered List</h3>
+
+    <ol type="I">
+        <li>Warrior</li>
+        <li>Elite</li>
+        <li>Master</li>
+        <li>Grand Master</li>
+        <li>Epic</li>
+        <li>Legend</li>
+        <li>Mythic</li>
+        <li>Glory</li>
+    </ol>
+
+    <hr>
+
+    <!-- <marquee behavior="" direction="right">
+        <h1>This is heading.</h1>
+    </marquee>
+
+    <hr> -->
+
+    <fieldset>
+        <legend>Register Form</legend>
+        <form action="https://mms-it.com" method="post" enctype="multipart/form-data">
+            <label for="your_name">Your Name :</label>
+            <input type="text" id="your_name" name="your_name" placeholder="Enter Your Name" required="required" autofocus="autofocus">
+
+            <br>
+
+            <label for="your_email">Your Email :</label>
+            <input type="email" id="your_email" name="your_email" value="@gmail.com" readonly>
+
+            <br>
+
+            <label for="your_password">Your Password :</label>
+            <input type="password" id="your_password" name="your_password" disabled>
+
+            <hr>
+
+            <label for="Gender">Gender :</label>
+
+            <input type="radio" id="male" name="gender" value="male_gender">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female_gender">
+            <label for="female">Female</label>
+
+            <hr>
+
+            <label for="Skill">Skill :</label>
+
+            <input type="checkbox" id="html" name="skill" value="HTML">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="css" name="skill" value="CSS">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="javascript" value="Javascript">
+            <label for="javascript">Javascript</label>
+
+            <input type="checkbox" id="bootstrap" name="skill" value="Bootstrap">
+            <label for="bootstrap">Bootstrap</label>
+
+            <input type="checkbox" id="php" name="skill" value="PHP">
+            <label for="php">PHP</label>
+
+            <input type="checkbox" id="sql" name="skill" value="SQL">
+            <label for="sql">SQL</label>
+
+            <hr>
+            <label for="nationality">Nationality :</label>
+
+            <select name="nationality" id="nationality">
+                <option value="myanmar">Myanmar</option>
+                <option value="england">England</option>
+                <option value="japan">Japan</option>
+                <option value="korea">Korea</option>
+            </select>
+            <hr>
+
+            <label for="address">Address :</label>
+            <br>
+            <textarea name="" id="" cols="35" rows="5"></textarea>
+
+            <hr>
+
+            <label for="image">Image :</label>
+            <input type="file" id="image" name="image" capture="user" accept="image/jpeg,video/mp4" multiple>
+
+            <!-- capture="user" attribute works on only mobile phone-->
+
+            <hr>
+
+            <label for="level">Level :</label>
+            <input type="range" id="level" name="level" min="0" step="20" max="100" value="0"><br>
+
+            <label for="english">English :</label>
+            <input type="range" id="english" name="english" min="0" max="100" value="30">
+            <br>
+
+            <label for="japan">Japan :</label>
+            <input type="range" id="japan" name="japan" min="0" max="100" value="50">
+            <br>
+
+            <label for="korea">Korea :</label>
+            <input type="range" id="korea" name="korea" min="0" max="100" value="70">
+            <br>
+
+            <label for="france">France :</label>
+            <input type="range" id="france" name="france" min="0" max="100" value="10">
+            <br>
+
+            <hr>
+
+            <label for="tel">Tel :</label>
+            <input type="tel" id="tel" name="tel">
+
+            <label for="number">Number :</label>
+            <input type="number" id="number" name="number" min="1" max="10">
+
+            <label for="url">URL :</label>
+            <input type="url" id="url" name="url">
+
+            <label for="time">Time :</label>
+            <input type="datetime-local" id="time" name="time">
+
+            <label for="week">Week :</label>
+            <input type="week" id="week" name="week">
+
+            <hr>
+
+            <button type="reset" name="" value="cancel" hidden="hidden">Cancel</button>
+
+            <br>
+            <br>
+
+            <!-- input type submit and button -->
+            <input type="submit">
+            <!-- <input type="button" value="Click Me">
+            <button>Click</button>
+            <button type="button" disabled>Submit</button>
+            <button type="submit">Click Here</button> -->
+        </form>
+    </fieldset>
+
+    <hr>
+
+    <h3>Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Job</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>KSK</td>
+                <td>ksk123@gmail.com</td>
+                <td>09-0000000</td>
+                <td>Web Developer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>KSK</td>
+                <td>ksk123@gmail.com</td>
+                <td>09-0000000</td>
+                <td>Graphic Designer</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>KSK</td>
+                <td>ksk123@gmail.com</td>
+                <td>09-0000000</td>
+                <td>Assistant</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>KSK</td>
+                <td>ksk123@gmail.com</td>
+                <td>09-0000000</td>
+                <td rowspan="2">Supervisor</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>KSK</td>
+                <td>ksk123@gmail.com</td>
+                <td>09-0000000</td>
+                
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>KSK</td>
+                <td>ksk123@gmail.com</td>
+                <td>09-0000000</td>
+                <td>Editor</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total</td>
+                <td>6 staff</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
