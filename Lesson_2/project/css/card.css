@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Raleway:wght@400;600&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 3000px;
+}
+.m-20{
+    margin: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.card{
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    /* overflow: hidden; */
+}
+.card-body{
+    padding: 20px;
+}
+.card-title{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+.card-text{
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: right;
+}
+
+.card-img{
+    width: 100%;
+    display: block;
+}
+
+/* if not overflow use  */
+
+.card-img-top{
+    border-radius: 15px 15px 0 0;
+}
+.card-img-bottom{
+    border-radius: 0 0 15px 15px;
+}
+
+/* for icon */
+.card-icon{
+    margin-bottom: 20px;
+}
+
+/* decent form parent to child  */
+
+.card:hover .card-icon{
+    color: red;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* card button link 1 */
+
+.card-btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* card button link 2 */
+
+.card-btn-link{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 1px solid transparent;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* half button  */
+
+.half-button{
+    margin: auto;
+    margin-bottom: -25px;
+    display: block;
+    width: 130px;
+    text-align: center;
+   
+}
+
+/* .half upper  */
+.half-upper{
+    float: right;
+    margin-top: -25px;
+    position: relative;
+    margin-right: 20px;
+}
